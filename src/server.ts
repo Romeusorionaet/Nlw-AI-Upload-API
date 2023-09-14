@@ -19,5 +19,5 @@ app.register(uploadVideoRoute)
 app.listen({
     port: 3333,
 }).then(() => {
-    console.log('HTTP Server Running! (DEV)')
+    console.log('HTTP Server Running! Port: 3333')
 })
